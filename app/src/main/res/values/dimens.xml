@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- navigation header layout -->
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <!-- navigation item layout -->
+    <dimen name="h_layout_padding_navigation_item">7dp</dimen>
+    <dimen name="h_layout_padding_lift_navigation_item">27dp</dimen>
+
+    <dimen name="image_view_layout_width_navigation_item">30dp</dimen>
+    <dimen name="image_view_layout_height_navigation_item">30dp</dimen>
+
+    <dimen name="text_view_marginLift_navigation_item">15dp</dimen>
+    <dimen name="text_view_text_size_navigation_item">15dp</dimen>
+
+    <!-- navigation header layout -->
+    <dimen name="v_layout_height_dashboard_item">110dp</dimen>
+
+    <dimen name="image_view_layout_width_dashboard_item">50dp</dimen>
+    <dimen name="image_view_layout_height_dashboard_item">70dp</dimen>
+
+    <dimen name="text_view_text_size_dashboard_item">15dp</dimen>
+</resources>

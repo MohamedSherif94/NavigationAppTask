@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/v_layout_height_dashboard_item"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <ImageView
+            android:layout_width="@dimen/image_view_layout_width_dashboard_item"
+            android:layout_height="@dimen/image_view_layout_height_dashboard_item"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_my_schools" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="My Schools"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_view_text_size_dashboard_item" />
+    </LinearLayout>
+
+    <View
+        android:layout_width=".3dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/navigationColor" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/v_layout_height_dashboard_item"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/image_view_layout_width_dashboard_item"
+            android:layout_height="@dimen/image_view_layout_height_dashboard_item"
+            android:layout_gravity="center"
+            android:src="@drawable/add_school" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="Add a school"
+            android:textSize="@dimen/text_view_text_size_dashboard_item" />
+    </LinearLayout>
+
+    <View
+        android:layout_width=".3dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/navigationColor" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/v_layout_height_dashboard_item"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/image_view_layout_width_dashboard_item"
+            android:layout_height="@dimen/image_view_layout_height_dashboard_item"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_how_to_use_application" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:textAlignment="center"
+            android:text="How to use Application"
+            android:textSize="@dimen/text_view_text_size_dashboard_item" />
+    </LinearLayout>
+</LinearLayout>
